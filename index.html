@@ -1,0 +1,23 @@
+<html>
+<head>
+  <script src='./graphToCMUPhonDict.js'></script>
+  <script src='./graphsByFreqArr.js'></script>
+  <script src='./app.js'></script>
+</head>
+<body>
+  <div id='main'>
+    <div id='prompt'></div>
+    <div id='msg'></div>
+    <div id='ans'>
+      <textarea id='userAns' rows='1' cols='30' defaultValue=''></textarea> 
+    </div>
+    <div id='enter'>
+      <button id='enterButton' onclick='enter()'>Answer</button>
+    </div>
+  </div>
+  <img src='./IPA_CMU_conversion_chart.png'></img>
+  <p>Vowels carry a lexical stress marker: </p>
+  <p>0 - No Stress<br>1 - Primary Stress<br>2 - Secondary Stress</p>
+  <p>Test</p>
+</body>
+</html>
